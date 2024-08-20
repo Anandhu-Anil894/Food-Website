@@ -1,0 +1,389 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: antiquewhite;
+}
+#head1{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+header{
+    
+    width: 100%;
+    height: 80px;
+    background-color: rgb(39, 7, 7);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    position: sticky;
+    top: 0px;
+}
+#row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.col{
+    list-style: none;
+    margin: 10px 30px;
+}
+.col:hover{
+    color: chocolate;
+}
+#banner{
+    width: 100%;
+    height: 700px;
+    background-image: url("https://qul.imgix.net/b68821fa-0b66-413f-b195-79eedf701717/669451_sld.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+#head2{
+    font-family: "Anton", sans-serif;
+    color: coral;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#row1{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(186, 117, 68);
+    display: flex;
+    justify-content: space-around;
+}
+.col1{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(186, 117, 68);
+    margin-top: 50px;
+}
+.cols{
+    background-image: url("https://www.recipetineats.com/tachyon/2023/09/Crispy-fried-chicken-burgers_5.jpg");
+    background-size: cover;
+    border-radius: 50px;
+}
+span{
+    color: white;
+    font-size: xx-large;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: chocolate;
+}
+iframe{
+    width: 100%;
+    height: 600px;
+}
+
+/* #row2{
+    width: 100%;
+    height:450px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.col3{
+    width: 400px;
+    height: 350px;
+    background-image: url("https://burgerloungeindia.com/assets/home/images/career.png");
+    background-size: cover;
+    border-radius: 30px;
+    margin: 5px;
+    margin-top:60px;
+}
+.col2{
+    width: 650px;
+    height: 350px;
+    background-color:white;
+    margin-right: 150px;
+    margin-top: 50px;
+    color: black;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    position: relative;
+    text-align: justify;
+
+}*/
+.col9::first-line{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    color: brown;
+    font-size: xx-large;
+}
+
+#row2{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(186, 117, 68);
+    display: flex;
+    justify-content: space-around;
+    background-attachment: fixed;
+}
+
+.col3{
+    background-image: url("https://burgerloungeindia.com/assets/home/images/career.png");
+    background-size: cover;
+    border-radius: 50px;
+}
+
+.col2{
+    width: 340px;
+    height: 340px;
+    background-color: rgb(186, 117, 68);
+    margin-top: 50px;
+}
+
+
+#img{
+    width: 50px;
+    height: 50px;
+    margin-left: 300px;
+}
+/* #head2{
+    margin-left: 360px;
+    margin-bottom:100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.col4{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(245, 245, 236);
+    margin: 5px;
+    position: absolute;
+}
+.col6{
+    width: 120px;
+    background-color:white;
+    top: 230px;
+    left: 410px;
+    margin-bottom: 50px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.col5{
+    width: 50px;
+    height: 50px;
+    background-color: chartreuse;
+    background-image: url("https://png.pngtree.com/element_our/md/20180626/md_5b321c98efaa6.jpg");
+    background-size: cover;
+    top: 230px;
+    left: 350px;
+.col8{
+    width: 220px;
+    background-color: white;
+    top: 290px;
+    left: 410px;
+    margin-bottom: 50px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.col7{
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    background-image: url("https://logowik.com/content/uploads/images/gmail-new-icon5198.jpg");
+    background-size: cover;
+    top: 290px;
+    left: 350px;
+}
+    */
+#contact{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(67, 59, 59);
+    color: white;
+}
+#row3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.colum{
+    list-style: none;
+    margin: 30px 30px;
+}
+ /* #row4{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    position: relative;
+
+}
+.a{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 20px;
+
+     background-color: blue; 
+
+}
+ first row 
+.b{ 
+    top: 90px;
+    left: 150px;
+    background-image: url("https://burgerim.com/wp-content/uploads/2016/08/8-19-Gourmet-Burgers-Set-Themselves-Apart-from-Other-Burgers.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.c{
+    top: 90px;
+    left: 350px;
+    background-image: url("https://i.ytimg.com/vi/a19EY3YNStA/maxresdefault.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.d{
+    top: 90px;
+    left: 550px;
+    background-image: url("https://honest-food.net/wp-content/uploads/2018/06/elk-burger-500x500.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.e{
+    top: 90px;
+    left: 750px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Cheeseburger.jpg/640px-Cheeseburger.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.f{
+    top: 90px;
+    left: 950px;
+    background-image: url("https://www.simplyrecipes.com/thmb/cgJTtVSTy-ftI1dBM4P2x2FJf14=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Bacon-Cheeseburger-LEAD-2b-6606850da0164612b5fb406a0e33f8df.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.g{
+    top: 350px;
+    left: 150px;
+    background-image: url("https://tmbidigitalassetsazure.blob.core.windows.net/wpconnatixthumbnailsprod/BarbecuedBurgersDIYD28800072722H_thumbnail.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.h{
+    top: 350px;
+    left: 350px;
+    background-image: url("https://www.cookedandloved.com/wp-content/uploads/2023/09/fish-sandwich-recipe-01.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.i{
+    top: 350px;
+    left: 550px;
+    background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcStPdJdhKE4I-W7x7a2gULRaiM0va40O7FScDni1lljjLjnac_1");
+    background-size: cover;
+    background-position: center;
+}
+.j{
+    top: 350px;
+    left: 750px;
+    background-image: url("https://bigoven-res.cloudinary.com/image/upload/t_recipe-1280/oklahoma-fried-onion-burgers.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.k{
+    top: 350px;
+    left: 950px;
+    background-image: url("https://hips.hearstapps.com/hmg-prod/images/turkey-burger-index-64873e8770b34.jpg?crop=0.6666666666666667xw:1xh;center,top&resize=1200:*");
+    background-size: cover;
+    background-position: center;
+}
+.para{
+    margin-top: 150px;
+}  */
+.row4{
+    width: 100%;
+    height: 350px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    
+  }
+.a{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    margin-top: 70px;
+    border-radius: 20px;
+    /* border: 2px solid black; */
+}
+
+.b{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 20px;
+    /* border: 2px solid black; */
+}
+.img{
+    width: 150px;
+    height: 150px;
+    border: 2px solid white;
+    margin-top: 10px;
+    margin-left: 47px;
+    border-radius: 20px;
+    transition:transform .2s;
+
+
+}
+.img:hover{
+    transform: scale(1.1);
+}
+.para{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+.para1{
+    text-align: center;
+}
+.button{
+    width: 90px;
+    margin-left: 80px;
+    margin-top: 10px;
+    
+}
+#footer1{
+    width: 100%;
+    height: 220px;
+    background-color: rgb(67, 59, 59);
+    display:flex;
+    justify-content: space-around;
+    
+}
+.footer2{
+    width: 400px;
+    height: 180px;
+    background-color: rgb(67, 59, 59);
+    /* border: 2px solid ; */
+    margin-top: 20px;
+    color: white;
+}
+.h{
+    text-align: center;
+}
+.i{
+    background-image: url("https://www.varenderings.com/wp-content/uploads/2016/06/C_Pegas-Burger-Cafe-2-655x491.jpg");
+    background-size: cover;
+    background-position: top;
+}
+.j{
+    text-align: center;
+}
+.para2{
+    text-align: justify;
+    font-size: medium;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
